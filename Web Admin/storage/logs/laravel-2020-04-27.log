@@ -1,0 +1,180 @@
+[2020-04-27 10:34:56] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\outes\\web.php:157)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(373): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(121): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(56): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(40): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#5 [internal function]: App\\Providers\\RouteServiceProvider->map()
+#6 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#11 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#13 [internal function]: App\\Providers\\RouteServiceProvider->boot()
+#14 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(827): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(810): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 25)
+#21 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(811): array_walk(Array, Object(Closure))
+#22 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#26 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\index.php(22): require_once('C:\\\\xampp\\\\htdocs...')
+#29 {main}
+"} 
+[2020-04-27 10:35:29] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\outes\\web.php:156)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(373): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(121): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(56): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(40): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#5 [internal function]: App\\Providers\\RouteServiceProvider->map()
+#6 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#11 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#13 [internal function]: App\\Providers\\RouteServiceProvider->boot()
+#14 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(827): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(810): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 25)
+#21 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(811): array_walk(Array, Object(Closure))
+#22 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#26 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\index.php(22): require_once('C:\\\\xampp\\\\htdocs...')
+#29 {main}
+"} 
+[2020-04-27 10:35:49] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\outes\\web.php:156)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(373): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(121): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(56): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(40): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#5 [internal function]: App\\Providers\\RouteServiceProvider->map()
+#6 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#11 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#13 [internal function]: App\\Providers\\RouteServiceProvider->boot()
+#14 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(827): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(810): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 25)
+#21 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(811): array_walk(Array, Object(Closure))
+#22 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#26 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\project\\company\\blankscript_king - Copy\
+ew_kingscript\\index.php(22): require_once('C:\\\\xampp\\\\htdocs...')
+#29 {main}
+"} 

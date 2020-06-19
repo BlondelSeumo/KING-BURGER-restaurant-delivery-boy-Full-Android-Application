@@ -1,0 +1,16 @@
+.carousel .box {
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+.carousel .box img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel .box.box-last {
+  width: 0;
+  margin: 0;
+}

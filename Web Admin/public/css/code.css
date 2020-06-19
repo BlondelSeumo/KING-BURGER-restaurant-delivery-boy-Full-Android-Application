@@ -1,0 +1,144 @@
+.cat_img{
+	border: 1px solid;
+    background: black;
+}
+.dtdiv{
+	margin-top: 25px;
+}
+.dttablewidth{
+	width: 100% !important;
+}
+.menuimage{
+	width: 250px;
+    height: 150px;
+}
+
+.desche{
+	height: 350px;
+}
+.serverkey{
+	height: 150px;
+	overflow: hidden;
+}
+.rowkey{
+	display: flex;
+	justify-content: center;
+}
+.reqfield{
+	color:red;
+}
+.dashbox1{
+	padding: 15px;
+}
+.dashbozsi{
+	font-size: xx-large;
+}
+.dashbox2{
+	padding:15px;
+	background: #f86c6b;
+}
+.dashbox3{
+	padding:15px;
+	background:#ffc107
+}
+.moredetailinfo{
+	border-bottom:1px rgba(0,0,0,.2) solid;
+	padding:6px 0px;
+}
+.moreaddress{
+	padding-right:120px;
+}
+.orderh{
+	margin-top:10px;
+	margin-left: 10px
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  font-size: 22px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.indextoggle{
+	padding-right: 0px;
+}
+.indexheader{
+	float:right;
+}
+.loginh4{
+	color:#ffffff;
+}
+.loginfontcolor{
+	color:#bfbfbf
+}
+.signdelivery{
+	color:blue;
+	float: right;
+	text-decoration: underline;
+}
+.breadsetting{
+	margin-top: 5px;
+}
+.tabdiv{
+	margin-top: 25px;
+}
+.orderbtn{
+	background-color: green;
+	border:none;
+}
+.btnright{
+	float: right;
+}
+.paycheckbox{
+	margin-top: 35px;
+}
+.adminpro{
+	height: 150px;
+	width: 150px;
+}
+.headerdeli{
+	padding-right: 0px;
+}
+.prefenceswitch{
+	font-size: xx-large;
+	color: blue;
+}
+.portfoliocat{
+	display: inline-block;
+}
+.portfoliocattxt{
+	color: black;
+}
+.btnorder{
+    margin-right: 10px;
+}
+.dataTables_paginate span .paginate_button {
+    padding: 1px 8px;
+    border: 1px solid #dfdfdf;
+}
+.adminbtn{
+	margin-top: 10px;
+	background: gray;
+	color: white;
+}
+.adminbtn:hover {
+  background-color: gray;
+  color: white;
+}
+.noclick{
+	 pointer-events: none;
+}

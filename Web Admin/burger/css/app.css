@@ -1,0 +1,64 @@
+.cartth{
+	width:85px;
+}
+.cartitemtxt{
+	color: #717171;
+}
+.cartfinaltotal{
+	color: black;
+}
+.modal-1 .modal-content {
+    height: auto;
+}
+.forgotbody{
+   display: none;
+}
+.for_success_msg{
+	color:green;
+	display: none
+}
+.for_error_msg{
+	color:red;display: none
+}
+.for_label{
+	width: 100%;
+	font-weight: 700;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+.requiredfield{
+	color:red;
+}
+.reuiredtextfields{
+	width: 100%;
+	padding: 8px;
+	background-color: #f6f6f6;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.for_btn_div{
+	display: flex;
+	justify-content: center;
+}
+.for_btn_div_model{
+	padding: 10px 25px;
+	border-radius: 1000px;
+	display: inline-block;
+	text-align: center; 
+	margin-top: 10px;
+}
+.for_button{
+	border: none;
+	color: white;
+	background: #ae191a;
+}
+.for_button_value{
+	text-transform: uppercase;
+}
+.model1my{
+  overflow-y: hidden;
+}
+.viewcarta{
+  color:black;
+}

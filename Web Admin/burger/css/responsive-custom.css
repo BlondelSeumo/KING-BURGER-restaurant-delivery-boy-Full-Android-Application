@@ -1,0 +1,198 @@
+@media(max-width: 1200px){
+	.cart-bill-box{
+		padding: 15px;
+	}
+	.cart-b-subtotal .cart-bs-head h4{
+		padding: 0px 10px 0px 0px;
+		font-size: 16px;
+		width: 55%;
+	}
+	.cart-b-subtotal .cart-bs-head p{
+		width: 45%;
+	}
+	.cart-b-shipping .cart-bs-heading h4{
+		width: 40%;
+		padding: 0px;
+		font-size: 18px;
+	}
+	.cart-b-shipping .cart-bs-heading .cart-bs-content{
+		font-size: 14px;
+		width: 60%;
+	}
+	.cart-shipping-box{
+		padding: 15px; 
+	}
+}
+@media(max-width: 991px){
+	.cart-bill-box{
+		padding: 50px;
+		margin-top: 30px;
+	}
+	.cart-shipping-box{
+		padding:50px;
+	}
+	.cart-bill-box .cart-bill-box-head h4{
+		font-size: 30px;
+	}
+	.cart-b-subtotal .cart-bs-head h4{
+		width: 50%;
+		font-size: 22px;
+	}
+	.cart-b-subtotal .cart-bs-head p{
+		width: 50%;
+		font-size: 22px; 
+	}
+	.cart-b-shipping .cart-bs-heading .cart-bs-content{
+		width: 28%;
+		font-size: 16px;
+	}
+	.cart-b-shipping .cart-bs-heading h4{
+		width:50%;
+	}
+	.cart-b-shipping .cart-bsc-note p{
+		font-size: 17px;
+	}
+	.cart-b-shipping .cart-bs-heading h4{
+		font-size: 22px;
+		width: 72%;
+	}
+	.cart-bs-content .checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before{
+		width: 20px;
+		height: 20px;
+	}
+}
+@media(max-width: 767px){
+	.cart-category i.fa.fa-trash-o{
+		font-size: 20px;
+		padding-right: 10px;
+	}
+	.cart-category .cart-category-items{
+		font-size: 13px;
+	}
+	.cart-category .cart-category-tab{
+		font-size: 15px;
+	}
+	.cart-bill-and-category .cart-head h1{
+		font-size: 35px;
+	}
+	.cart-category .cart-coupon-button-tab{
+		padding: 20px 20px; 
+	}
+	.cart-category .cart-quantity input#adults{
+		width: 30px;
+	}
+	.cart-category .cart-quantity{
+		width: 101px;
+	}
+	/* cart-bill */
+	.cart-b-shipping .cart-bs-heading h4{
+		width: 50%;
+	}
+	.cart-b-shipping .cart-bs-heading .cart-bs-content{
+		width: 50%;
+	}
+}
+@media(max-width: 576px){
+	tr.cart-box-items{
+		display: grid;
+		text-align: center;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #d7d7d7;
+	}
+	.cart-category .cart-quantity-heading{
+		display: none;
+	}
+	.cart-category .cart-product-image{
+		border: none;
+	}
+	.cart-category .cart-quantity{
+		margin: 10px 5px;
+		float: right;
+		width: 100px;
+	}
+	.cart-category .cart-quantity input#adults{
+		width: 22px;
+	}
+	.cart-category .cart-category-items{
+		padding: 15px 0px;
+	}
+	.cart-box-items .cart-category-items h6{
+		display: inline-block;
+		float: left;
+    	padding-left: 15px;
+	}
+	.cart-box-items .cart-category-shape h6{
+		display: inline-block;
+		float: left;
+    	padding: 21px 5px;
+	}
+	.cart-box-items .cart-category-items p{
+		float: right;
+		padding-right: 15px;
+		color: black;
+	}
+	/*nishant*/
+	.table-striped tbody tr:nth-of-type(odd){
+		background-color:rgba(0, 0, 0, 0.05); 
+	}
+	.table-striped tbody tr:nth-of-type(even){
+		background-color: rgba(0,0,0,0.05);
+	}
+	/*nishant*/
+	.cart-category .cart-coupon-button-tab .cart-coupon-code{
+		float: none;
+	}
+	.cart-category .cart-coupon-button-tab .cart-coupon-code input#cart-coupon{
+		width: 48%;
+		float: left;
+		margin-top: 0px;
+	}
+	.cart-category .cart-coupon-button-tab .cart-coupon-button{
+		display: block;
+	}
+	.cart-category .cart-coupon-button-tab .cart-coupon-button button{
+		padding: 7px 10px;
+	    border-radius: 5px;
+	    margin: 0px; 
+	    width: 48%;
+	    display: block; 
+	    float: right;
+	}
+	.cart-category .cart-coupon-button-tab {
+	    margin-top: -34px;
+	    margin-bottom: 15px;
+	    border-bottom: 1px solid #d7d7d7;
+	}
+	.cart-category .cart-quantity {
+		padding: 5px; 
+	}
+	/* cart bill*/
+	.cart-bill-box{
+		padding: 15px;
+	}
+	.cart-shipping-box{
+		padding: 15px;
+	}
+	.cart-b-subtotal .cart-bs-head h4{
+		width: 52%;
+		font-size: 18px;
+	}
+	.cart-b-subtotal .cart-bs-head p{
+		width: 48%;
+		font-size: 18px;
+	}
+	.cart-b-shipping .cart-bs-heading h4{
+		font-size: 18px; 
+		width: 44%;
+	}
+	.cart-b-shipping .cart-bs-heading .cart-bs-content{
+		width: 56%;
+		font-size: 14px;
+	}
+	.cart-b-shipping .cart-bsc-note p{
+		font-size: 14px; 
+	}
+	.cart-b-button a{
+		font-size: 14px;
+	}
+}
