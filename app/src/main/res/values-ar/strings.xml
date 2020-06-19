@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mycart">عربتي</string>
+    <string name="addtocart">أضف إلى السلة</string>
+    <string name="ingredients">مكونات</string>
+    <string name="ingredients_des">حدد المكونات الخاصة بك لبرغر الجبن</string>
+    <string name="img_background">خلفية</string>
+    <string name="txt_my_cart">عربتي</string>
+    <string name="txt_complete_order">اكمل الطلب</string>
+    <string name="text_set_delivery_address">تعيين عنوان التسليم</string>
+    <string name="title_activity_maps">خريطة</string>
+    <string name="txt_full_name">الاسم الكامل</string>
+    <string name="txt_address">عنوان</string>
+    <string name="txt_email">البريد الإلكتروني</string>
+    <string name="txt_notes">ملاحظات</string>
+    <string name="txt_phone_number">رقم الهاتف</string>
+    <string name="text_payment_type">نوع الدفع</string>
+    <string name="txt_cash">السيولة النقدية</string>
+    <string name="txt_by_card">بواسطة البطاقة</string>
+    <string name="no_map">لا يمكن تهيئة الخريطة!</string>
+    <string name="txt_load">جار التحميل…</string>
+    <string name="error_lat_long">حاول مرة أخرى في وقت لاحق!</string>
+    <string name="drawer_open">افتح</string>
+    <string name="drawer_close">أغلق</string>
+    <string name="txt_favorites">المفضلة</string>
+    <string name="book_order">طلب كتاب</string>
+    <string name="txt_cancel_order">الغاء الطلب</string>
+    <string name="txt_order_placed">تم الطلب</string>
+    <string name="txt_preparing">خطة</string>
+    <string name="txt_dispatching">إيفاد</string>
+    <string name="txt_delivered">تم التوصيل</string>
+    <string name="registration_detail">يمكنك التسجيل باستخدام رقم هاتفك ، نطلب منك تسجيل الدخول حتى نتمكن في المستقبل من استعادة معلوماتك باستخدام رقم هاتفك.</string>
+    <string name="txt_register">تسجيل</string>
+    <string name="Free_Ingredients">المكونات المجانية</string>
+    <string name="Paid_Ingredients">المكونات المدفوعة</string>
+
+    <!--Setting for navigation bar-->
+    <string name="nav_menu_list">قائمة القائمة</string>
+    <string name="nav_my_cart">عربتي</string>
+    <string name="nav_book_order">طلب كتاب</string>
+    <string name="nav_favourite">مفضل</string>
+    <string name="nav_about_us">معلومات عنا</string>
+    <string name="nav_our_policy">سياستنا</string>
+    <string name="text_share">شارك</string>
+    <string name="nav_facebook">فيس بوك</string>
+    <string name="nav_whatsapp">Whatsapp</string>
+    <string name="nav_others">الآخرين</string>
+
+
+    <!--Setting for errors-->
+    <string name="error_payment">يرجى اختيار خيار الدفع!</string>
+    <string name="error_notes">يرجى إدخال ملاحظاتك!</string>
+    <string name="error_number">يرجى إدخال رقم الهاتف الخاص بك!</string>
+    <string name="error_email">الرجاء إدخال بريد إلكتروني صحيح!</string>
+    <string name="error_address">الرجاء إدخال عنوانك!</string>
+    <string name="error_name">من فضلك أدخل إسمك!</string>
+    <string name="error_city">يرجى اختيار المدينة قبل الطلب!</string>
+
+    <string name="textSelectIngredient">حدد المكونات الخاصة بك</string>
+
+
+    <string name="delete_item_cart">هل أنت متأكد من حذف عنصر من العربة</string>
+    <string name="yes">نعم فعلا</string>
+    <string name="no">لا</string>
+    <string name="cart_is_empty">البطاقه خاليه</string>
+    <string name="total_amount">المبلغ الإجمالي :</string>
+    <string name="login_as_delivery_boy">تسجيل الدخول كصديق التسليم</string>
+    <string name="delivery_boy_login">تسليم الصبي تسجيل الدخول</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="txt_order_history">تاريخ الطلب</string>
+    <string name="txt_my_profile">ملفي</string>
+    <string name="no_orders_book_yet">لا توجد أوامر الكتاب حتى الآن</string>
+    <string name="no_items_found">لم يتم العثور على العناصر</string>
+    <string name="Quit">استقال</string>
+    <string name="statementquit">هل أنت متأكد من أنك تريد الخروج؟</string>
+    <string name="about_us">معلومات عنا</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="txt_call_customer">اتصل بالعميل</string>
+    <string name="txt_view_map">إعرض الخريطة</string>
+    <string name="cancelled">ألغيت</string>
+    <string name="no_favourites">لا المفضلة</string>
+    <string name="complete">اكتمال</string>
+    <string name="empty_cart">البطاقه خاليه</string>
+    <string name="ok">حسنا</string>
+    <string name="item_added_cart">تمت إضافة العنصر إلى cart!</string>
+    <string name="policy">سياستنا</string>
+    <string name="no_ingredients">لا مكونات اضافية</string>
+    <string name="order_is_picked">يتم اختيار طلبك المعين للتسليم.</string>
+    <string name="order_is_completed">اكتمل طلبك المعين.</string>
+    <string name="picked">اختار</string>
+    <string name="cancel">إلغاء</string>
+    <string name="enter_mobile_number">الرجاء إدخال رقم هاتفك المحمول!</string>
+    <string name="txt_continue">استمر</string>
+
+    <string name="register_dialog_text">يمكنك التسجيل باستخدام رقم هاتفك ، ونحن نطلب منك تسجيل الدخول حتى نتمكن في المستقبل من استعادة معلوماتك باستخدام رقم هاتفك.</string>
+
+
+    <string name="hint_email_required">البريد الإلكتروني (مطلوب</string>
+    <string name="hint_password_required">كلمة المرور مطلوبة</string>
+    <string name="no_internet">لا يوجد إنترنت!</string>
+    <string name="please_connect_to_internet_or_wifi_to_continue">يرجى الاتصال بالإنترنت أو wifi للمتابعة!</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="tv_continue">استمر</string>
+    <string name="hintselect_city">اختر مدينة</string>
+    <string name="select_quantity">حدد الكمية</string>
+    <string name="item">العناصر</string>
+    <string name="orderno">رقم الطلب</string>
+    <string name="select_preference">تعيين حضورك</string>
+    <string name="delivery_boy">فتى التوصيل</string>
+    <string name="sign_out">خروج</string>
+    <string name="order_amount">كمية الطلب </string>
+    <string name="payment">دفع :</string>
+    <string name="okk">حسنا</string>
+    <string name="my_profile">ملفي</string>
+    <string name="order_history">تاريخ الطلب</string>
+    <string name="item_warining">كمية البند ليكون على الأقل 1!</string>
+    <string name="cant_find_location">لا يمكن العثور على الموقع!</string>
+    <string name="reg_succezss">التسجيل ناجح!</string>
+    <string name="reg_sucess">التسجيل ناجح!</string>
+    <string name="cart_empty">السلة فارغة</string>
+    <string name="loading">Loading</string>
+
+
+</resources>

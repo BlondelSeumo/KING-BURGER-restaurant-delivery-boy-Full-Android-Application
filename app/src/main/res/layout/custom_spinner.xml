@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/spinner_custom_without_boader"
+        android:layout_height="45dp">
+        <ImageView
+            android:id="@+id/spnr_img"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"/>
+        <TextView
+            android:id="@+id/txt_spnr"
+            android:text="Hambergures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/spnr_img"
+            android:paddingStart="8dp"
+            android:paddingEnd="40dp"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/spinner_text_size"
+            android:layout_marginStart="10dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </RelativeLayout>
+</RelativeLayout>

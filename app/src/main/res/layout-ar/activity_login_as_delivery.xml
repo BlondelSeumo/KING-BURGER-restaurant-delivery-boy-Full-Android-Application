@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.deliveryBoySection.LoginAsDelivery">
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_background"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/rel_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent">
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="32dp"
+            android:text="@string/delivery_boy_login"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_center"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/main_screen_height"
+        android:background="@drawable/round_corner"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/img_delivery"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_loginscreen" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_delivery"
+                android:layout_marginTop="32dp"
+                android:textColorHint="@color/text_black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/hint_email_required"
+                    android:inputType="textEmailAddress"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000"
+                    android:textColorHighlight="@color/text_black"
+                    android:textColorLink="@color/text_black"
+                    android:textSize="16dp"
+                    tools:ignore="HardcodedText,SpUsage" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_layout_email"
+                android:textColorHint="@color/text_black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_pwd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/hint_password_required"
+                    android:inputType="textPassword"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000"
+                    android:textColorHighlight="@color/text_black"
+                    android:textSize="16dp"
+                    tools:ignore="HardcodedText,SpUsage" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_layout_password"
+                android:layout_marginBottom="25dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/add_to_cart_button"
+                android:onClick="toDeliveryBoyHome"
+                android:text="@string/login"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/my_cart_text_size"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
+

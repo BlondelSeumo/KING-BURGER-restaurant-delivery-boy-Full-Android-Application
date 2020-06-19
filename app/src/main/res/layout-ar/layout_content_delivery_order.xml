@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/sv_inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topround"
+        tools:context=".activity.PlaceOrderInfo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/spinner_select_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/tv_deliver_bg"
+                    android:dropDownVerticalOffset="45dp"
+                    android:spinnerMode="dropdown" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_expand" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/et_fullName"
+                style="@style/textview_delivery_theme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="end"
+                android:hint="@string/txt_full_name"
+                android:inputType="textPersonName"
+                android:paddingTop="13dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp">
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/map"
+                    class="freaktemplate.kingburger.utils.WorkaroundMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".MapsActivity" />
+
+                <ImageView
+                    android:id="@+id/iv_location"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_locationn" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/et_address"
+                style="@style/textview_delivery_theme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="end"
+                android:paddingTop="13dp"
+                android:hint="@string/txt_address"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/et_email"
+                style="@style/textview_delivery_theme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="end"
+                android:paddingTop="13dp"
+                android:hint="@string/txt_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/et_phoneNumber"
+                style="@style/textview_delivery_theme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingTop="13dp"
+                android:hint="@string/txt_phone_number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/et_notes"
+                style="@style/textview_delivery_theme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="end"
+                android:paddingTop="13dp"
+                android:hint="@string/txt_notes"
+                android:inputType="textShortMessage" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="end"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/tv_paymentType"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_payment_type"
+                    android:textColor="@color/text_black" />
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rg_paymentType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_cash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:button="@drawable/custom_checkbox"
+                        android:paddingStart="8dp"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:text="@string/txt_cash" />
+
+                    <RadioButton
+                        android:id="@+id/rb_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="24dp"
+                        android:button="@drawable/custom_checkbox"
+                        android:paddingStart="8dp"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:text="@string/txt_by_card" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

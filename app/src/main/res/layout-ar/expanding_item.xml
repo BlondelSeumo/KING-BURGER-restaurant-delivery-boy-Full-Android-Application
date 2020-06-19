@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/rl_top_bottom"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:visibility="visible">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/tv_ingredientTittle"
+    android:text="@string/ingredients"
+    android:textColor="@color/text_black"
+    android:textSize="@dimen/Detail_ingredients_text_size"
+    tools:ignore="SpUsage" />
+
+<ImageView
+    android:id="@+id/img_slider"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/btn_upview" />
+
+<TextView
+    android:id="@+id/tv_select_ingredients"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/img_slider"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginTop="15dp"
+    android:gravity="center"
+    android:text="@string/ingredients_des"
+    android:textColor="@color/text_black"
+    android:textSize="13dp"
+    android:visibility="visible"
+    tools:ignore="SpUsage" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:visibility="gone"
+    android:id="@+id/rel_quantity"
+    android:layout_marginStart="15dp"
+    android:layout_below="@+id/img_slider"
+    android:layout_marginEnd="15dp">
+    <TextView
+        android:id="@+id/tv_select_quantity"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:text="@string/select_quantity"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/text_black"
+        android:textSize="15dp"
+        android:visibility="visible"
+        tools:ignore="SpUsage" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/ib_plus"
+        android:background="@drawable/round_corner_grey"
+        android:src="@drawable/ic_add_black_24dp"
+        android:text="+"
+        />
+
+    <TextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_centerVertical="true"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_toStartOf="@+id/ib_plus"
+        android:text="5"
+        android:textColor="@color/text_black"
+        android:textSize="14dp"
+        android:visibility="visible"
+        tools:ignore="SpUsage" />
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        android:layout_toStartOf="@+id/tv_quantity"
+        android:gravity="center"
+        android:id="@+id/ib_minus"
+        android:background="@drawable/round_corner_grey"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:text="+"
+        />
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:context=".activity.OrderDetail"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="12-08-2016 1:00 PM"
+            android:lines="2"
+            android:textColor="#B2030F"
+            android:textSize="10dp"
+            tool:ignore="HardcodedText,SpUsage" />
+
+        <TextView
+            android:id="@+id/tv_orderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:text="Order Placed"
+            android:textColor="@color/text_black"
+            android:textSize="12dp"
+            tool:ignore="HardcodedText,SpUsage" />
+
+        <com.github.vipulasri.timelineview.TimelineView
+            android:id="@+id/time_marker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            app:line="@color/white"
+            app:lineOrientation="horizontal"
+            app:marker="@drawable/selector_timeline"
+            app:markerSize="50dp" />
+
+    </LinearLayout>

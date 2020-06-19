@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name" translatable="false">KingBurger</string>
+
+<!--    <string name="link" translatable="false">http://siparis.hollystay.com/</string>-->
+    <string name="link" translatable="false">https://wellpickedja.com/</string>
+<!--    <string name="link" translatable="false">https://wellpickedja.com/</string>-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCZltzHWCT8MEiDoeLys8ioQkQaQGVL2Sg</string>
+    <string name="stripe_key" translatable="false">pk_test_yFUNiYsEESF7QBY0jcZoYK9j00yHumvXho</string>
+    <string name="banner" translatable="false">ca-app-pub-4643384715195426/8503595530</string>
+    <string name="interstitial" translatable="false">ca-app-pub-4643384715195426/5462499221</string>
+    <string name="facebook_app_id" translatable="false">528839590855948</string>
+    <string name="dash" translatable="false">x</string>
+    <string name="currency" translatable="false">$</string>
+    <string name="download_app" translatable="false">Download the app now on https://play.google.com/store/apps/details?id=</string>
+    <string name="notifications_admin_channel_name">@string/app_name</string>
+    <string name="notifications_admin_channel_description">New Notification</string>
+    <!--Home Page-->
+    <string name="mycart">MY CART</string>
+    <string name="addtocart">ADD TO CART</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="ingredients_des">Select your ingredients for cheese burger</string>
+    <string name="img_background">background</string>
+    <string name="txt_my_cart">My Cart</string>
+    <string name="txt_complete_order">Complete Order</string>
+    <string name="text_set_delivery_address">Set Delivery Address</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="txt_full_name">Full Name</string>
+    <string name="txt_address">Address</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_notes">Notes</string>
+    <string name="txt_phone_number">Phone Number</string>
+    <string name="text_payment_type">Payment Type</string>
+    <string name="txt_cash">Cash</string>
+    <string name="txt_by_card">Card Swipe</string>
+    <string name="no_map">Map cannot be initialized!</string>
+    <string name="txt_load">Loading…</string>
+    <string name="error_lat_long">Try Again Later!</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="txt_favorites">Favourites</string>
+    <string name="book_order">Book Order</string>
+    <string name="txt_cancel_order">Cancel Order</string>
+    <string name="txt_order_placed">Order Placed</string>
+    <string name="txt_preparing">Preparing</string>
+    <string name="txt_dispatching">Dispatching</string>
+    <string name="txt_delivered">Delivered</string>
+    <string name="registration_detail">you can register using your phone number, we require you to login so in future we can retrive you information using your phone number.</string>
+    <string name="txt_register">Register</string>
+    <string name="Free_Ingredients">Free Ingredients</string>
+    <string name="Paid_Ingredients">Paid Ingredients</string>
+
+    <!--Setting for navigation bar-->
+    <string name="nav_menu_list">Menu List</string>
+    <string name="nav_my_cart">My Cart</string>
+    <string name="nav_book_order">Book Order</string>
+    <string name="nav_favourite">Favourite</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_our_policy">Our Policy</string>
+    <string name="text_share">Share</string>
+    <string name="nav_facebook">Facebook</string>
+    <string name="nav_whatsapp">Whatsapp</string>
+    <string name="nav_others">Others</string>
+    <!--Setting for errors-->
+
+    <string name="error_payment">Please Select a Payment Option!</string>
+    <string name="error_notes">PLease enter your Notes!</string>
+    <string name="error_number">PLease enter your Phone Number!</string>
+    <string name="error_email">PLease enter valid email!</string>
+    <string name="error_address">PLease enter your address!</string>
+    <string name="error_name">PLease enter your name!</string>
+    <string name="error_city">Please Select a City Before Ordering!</string>
+
+    <string name="textSelectIngredient">Select your ingredients for</string>
+    <string name="shared_pref_name" translatable="false">app_values</string>
+    <string name="default_notification_channel_id" translatable="false">123</string>
+    <string name="delete_item_cart">Are you sure to delete item from cart</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="cart_is_empty">Cart is Empty</string>
+    <string name="total_amount">Total Amount :</string>
+    <string name="login_as_delivery_boy">Login as delivery boy</string>
+    <string name="delivery_boy_login">Delivery Boy Login</string>
+    <string name="login">Login</string>
+    <string name="txt_order_history">Order History</string>
+    <string name="txt_my_profile">My Profile</string>
+    <string name="no_orders_book_yet">No orders Book Yet</string>
+    <string name="no_items_found">No Items Found</string>
+    <string name="Quit">Quit</string>
+    <string name="statementquit">Are you sure you want to quit?</string>
+
+    <string name="whatsapp_warning" translatable="false">WhatsApp not installed in the device</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_dummy_data" translatable="false"><![CDATA[<h1>HTML Ipsum Presents</h1>  <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis.</p>  <h2>Header Level 2</h2>  <ol>    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>    <li>Aliquam tincidunt mauris eu risus.</li> </ol>  <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>  <h3>Header Level 3</h3>  <ul>    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>    <li>Aliquam tincidunt mauris eu risus.</li> </ul>  ]]></string>
+    <string name="order_details">Order Details</string>
+    <string name="txt_call_customer">Call Customer</string>
+    <string name="txt_view_map">View Map</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="no_favourites">No Favourites</string>
+    <string name="picked">PICKED</string>
+    <string name="complete">COMPLETE</string>
+    <string name="cancel">Cancel</string>
+    <string name="btn_close" translatable="false">Logout</string>
+    <string name="empty_cart">Cart is empty</string>
+    <string name="ok">Ok</string>
+    <string name="alreadydialog_text" translatable="false">You already been register with us with above details</string>
+    <string name="alreadylogin_text" translatable="false">You already been Login with us with above details</string>
+
+    <string name="item_added_cart">Item has been added to cart!</string>
+    <string name="policy">Our Policy</string>
+    <string name="no_ingredients">No extra ingredients</string>
+    <string name="order_is_picked">Your assigned order is Picked for delivery.</string>
+    <string name="order_is_completed">Your assigned order is completed.</string>
+    <string name="enter_mobile_number">Please Enter Your Mobile Number!</string>
+    <string name="txt_continue">Continue</string>
+
+
+    <!--RegisterDialog.java-->
+    <string name="register_dialog_text">you can register using your phone number, we require you to login so that in future we can retrive your information using your phone number.</string>
+    <string name="login_dialog_text">you can Login using your phone number, we require you to login so that in future we can retrive your information using your phone number.</string>
+    <string name="hint_email_required">Email Required</string>
+    <string name="hint_password_required">Password Required</string>
+    <string name="no_internet">No internet!</string>
+    <string name="please_connect_to_internet_or_wifi_to_continue">Please connect to internet or wifi to continue!</string>
+    <string name="retry">Try again</string>
+    <string name="tv_continue">Continue</string>
+    <string name="hintselect_city">Select city</string>
+    <string name="item">items</string>
+    <string name="orderno">Order No</string>
+    <string name="order_amount">Order Amount </string>
+    <string name="select_quantity">Select quantity</string>
+    <string name="select_preference">Set Your Presence</string>
+    <string name="delivery_boy">Delivery Boy</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="payment">Payment :</string>
+    <string name="okk">OK</string>
+    <string name="my_profile">My Profile</string>
+    <string name="order_history">Order History</string>
+    <string name="item_warining">Item Quantity to be atleast 1!</string>
+    <string name="cant_find_location">Can\'t find location !</string>
+    <string name="reg_succezss">Registration Successful!</string>
+    <string name="reg_sucess">Registration Successful!</string>
+    <string name="reg_logout">Logout Successful!</string>
+    <string name="cart_empty">Cart is empty</string>
+    <string name="loading">Loading</string>
+    <string name="Login">login</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="name">name</string>
+    <string name="mobile_password">Mobile or password is wrong</string>
+    <string name="login_success">Login Success</string>
+    <string name="enter_email">Enter email</string>
+    <string name="ente_valid_email">Enter valid email</string>
+    <string name="passsend">password sent to your email, See Your email</string>
+    <string name="allready">Allready registered</string>
+    <string name="try_again">Try Again</string>
+
+    <!--paypal-->
+    <string name="pay_failure">an extremely unlikely failure occurred:</string>
+    <string name="invalid_payment">An invalid Payment or PayPalConfiguration was submitted. Please see the docs.</string>
+    <string name="burger_payment">Payment</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_name">Card Name</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+
+</resources>

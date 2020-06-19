@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bluetheme"
+        android:state_enabled="true" tools:ignore="StateListReachable" />
+    <item android:drawable="@drawable/greytheme"
+        android:state_enabled="true" />
+    <item android:drawable="@drawable/greytheme" />
+
+</selector>

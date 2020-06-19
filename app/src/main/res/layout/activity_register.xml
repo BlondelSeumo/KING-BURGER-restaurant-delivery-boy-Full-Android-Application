@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CompleteOrder"
+    tools:ignore="SpUsage">
+
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:contentDescription="@string/img_background"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imgGif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/opensansbold"
+        android:maxLines="2"
+        android:text="@string/txt_register"
+        android:textColor="@color/text_white"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/bg_food" />
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_corner">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/txt_register"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/opensansbold"
+                    android:text="@string/txt_register"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/txt_login_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/et_name"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensansbold"
+                    android:gravity="center_horizontal"
+                    android:text="@string/register_dialog_text"
+                    android:textColor="@color/text_black"
+                    android:textSize="13sp" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/et_name"
+                            style="@style/textview_delivery_theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_above="@+id/et_email"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="@font/opensansbold"
+                            android:hint="@string/name"
+                            android:imeOptions="actionNext"
+                            android:singleLine="true" />
+
+                        <EditText
+                            android:id="@+id/et_email"
+                            style="@style/textview_delivery_theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_above="@+id/et_mobileNumber"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="@font/opensansbold"
+                            android:hint="@string/txt_email"
+                            android:visibility="gone"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:singleLine="true" />
+
+                        <EditText
+                            android:id="@+id/et_mobileNumber"
+                            style="@style/textview_delivery_theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_above="@+id/et_password"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="@font/opensansbold"
+                            android:hint="@string/txt_phone_number"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone" />
+
+                        <EditText
+                            android:id="@+id/et_password"
+                            style="@style/textview_delivery_theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_above="@+id/et_cpassword"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="@font/opensansbold"
+                            android:hint="@string/password"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPassword"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/et_cpassword"
+                            style="@style/textview_delivery_theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_above="@+id/txt_register"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="@font/opensansbold"
+                            android:hint="confirm password"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPassword"
+
+                            />
+                    </LinearLayout>
+                </ScrollView>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/txt_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/add_to_cart_button"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/my_cart_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

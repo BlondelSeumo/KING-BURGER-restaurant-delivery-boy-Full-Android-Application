@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CompleteOrder"
+    tools:ignore="SpUsage">
+
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:contentDescription="@string/img_background"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imgGif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/opensansbold"
+        android:maxLines="2"
+        android:text="Login"
+        android:textColor="@color/text_white"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/bg_food" />
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_corner">
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txt_login_detail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/opensansbold"
+            android:text="@string/Login"
+            android:textAllCaps="true"
+            android:textColor="@color/text_black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txt_login_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/et_mobileNumber"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/opensansbold"
+            android:gravity="center_horizontal"
+            android:text="@string/login_dialog_text"
+            android:textColor="@color/text_black" />
+
+        <EditText
+            android:id="@+id/et_mobileNumber"
+            style="@style/textview_delivery_theme"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/et_password"
+            android:fontFamily="@font/opensansbold"
+            android:hint="@string/txt_phone_number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/textview_delivery_theme"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/rel_forgot"
+            android:fontFamily="@font/opensansbold"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/rel_forgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txt_login"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/txt_forgot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/opensansbold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/forgot_password"
+                android:textColor="@color/text_black"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txt_register"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/add_to_cart_button"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/my_cart_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/txt_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/add_to_cart_button"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/my_cart_text_size"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <!--
+        <RelativeLayout
+            android:id="@+id/rl_login"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bottomround">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/add_to_cart_button"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/my_cart_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    -->
+
+</RelativeLayout>

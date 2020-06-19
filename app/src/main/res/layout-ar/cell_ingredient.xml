@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginStart="11dp">
+
+        <CheckBox
+            android:id="@+id/cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleX="0.6"
+            android:focusable="false"
+            android:clickable="false"
+            android:scaleY="0.6"
+            android:button="@drawable/custom_checkbox" />
+
+        <TextView
+            android:id="@+id/tv_ingredientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/cb"
+            android:layout_centerVertical="true"
+            android:text="تركيا برجر"
+            android:textAlignment="viewStart"
+            android:textColor="@color/text_black"
+            android:textSize="13dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.deliveryBoySection.DeliveryBoyOrderDetail">
+    <RelativeLayout
+        android:id="@+id/rel_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E9E8E8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/divider1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_call" />
+
+                <Button
+                    android:id="@+id/btn_call"
+                    style="@style/Delivery_button"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:background="@android:color/transparent"
+
+                    android:gravity="start|center_vertical"
+                    android:text="@string/txt_call_customer"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="16dp"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/divider1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@color/lightGrey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/divider1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_map" />
+
+                <Button
+                    android:id="@+id/btn_map"
+                    style="@style/Delivery_button"
+                    android:layout_width="wrap_content"
+                    android:text="@string/txt_view_map"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="16dp"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

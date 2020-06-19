@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel_detail_main"
+    tools:context=".activity.DetailPage">
+
+
+    <ImageView
+        android:id="@+id/imgGif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:padding="13dp"
+            android:src="@drawable/btn_back" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:padding="8dp"
+            android:src="@drawable/btn_fav_yes"
+            android:id="@+id/iv_fav"
+            android:onClick="addToFav"
+           />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_title_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_header"
+        android:layout_marginTop="-8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="10dp"
+            android:maxLines="2"
+            android:lines="2"
+            android:id="@+id/tv_itemName"
+            android:text="تركيا برج"
+            android:layout_toStartOf="@+id/tv_itemPrice"
+            android:includeFontPadding="false"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/Detail_title_text_size"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:maxLines="1"
+            android:gravity="top"
+            android:id="@+id/tv_itemPrice"
+            android:text="$11.95"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/Detail_title_text_size"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_itemImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/rl_title_price"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_itemImage"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Cheese burger, grilled stack 100gm, spinch leaves, tomatos, hot sauce Cheese burger, grilled stack 100gm, spinch leaves, tomatos, hot sauce"
+        android:textColor="@color/text_white"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <com.diegodobelo.expandingview.ExpandingList
+        android:id="@+id/expanding_list_main"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_above="@+id/rl_AddToCart"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/bottomround">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/add_to_cart_button"
+            android:text="@string/addtocart"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/my_cart_text_size"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
